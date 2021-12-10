@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: pink;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 10px 10px;
+}
+
+.checker-board {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 0px -2px;
+}
+
+.black{
+    background-color: black;
+}
