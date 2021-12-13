@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: pink;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.products {
+    margin: 20px 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
